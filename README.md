@@ -1,4 +1,4 @@
-#systemrdl-mode
+# systemrdl-mode
 
 An emacs mode for SystemRDL 2.0 with syntax highlighting and indentation.
 
@@ -7,7 +7,7 @@ The SystemRDL 2.0 standard is freely available from
 
 ## Installation
 
-###To install
+### To install
 1. Copy systemrdl-mode.el to somewhere in your emacs load-path.
 1. Add the following to your .emacs file:
 ```
@@ -15,7 +15,7 @@ The SystemRDL 2.0 standard is freely available from
 (setq auto-mode-alist (cons '("\\.rdl$" . systemrdl-mode) auto-mode-alist))
 ```
 
-###Newbie installation
+### Newbie installation
 If you don't understand the directions above, try this:
 
 1. copy the file to some directory such as ~/emacs
